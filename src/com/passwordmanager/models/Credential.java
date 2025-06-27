@@ -10,6 +10,12 @@ public class Credential {
     private String username;
     private String password;
 
+    /**
+     * Constructs a new Credential with the given service name, username and password
+     * @param service
+     * @param username
+     * @param password
+     */
     public Credential(String service, String username, String password) {
         this.service = service;
         this.username = username;
