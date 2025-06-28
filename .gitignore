@@ -1,3 +1,5 @@
 # Ignore IDE config files
 .idea/
 
+# Ignore compiled .class files
+out/
